@@ -24,3 +24,11 @@ Baserad på erc 721 och cw 721.
 
 # seal
 - Gömmer metadata tills den är unwraped
+
+# transfer methods
+
+- wallet is local and when matchmaking starts client sends transfer data when entering matchmaking server tells if it should init or search for new contract
+- wallet is local and nft is sent to admin adress that handles all contract serverwise
+- snip function that trigger matchmaking function
+
+- auction_addr: env.contract.address,
